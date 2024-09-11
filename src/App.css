@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,::after,::before {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+
+}
+
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.error {
+  color:#d32f2f;
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-block: 1rem;
+}
+
+
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* input[type="number"] {
+    -moz-appearance: textfield;
+} */
