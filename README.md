@@ -1,1 +1,1 @@
-# React + TypeScript + Vite
+# Social Media app in React + TypeScript + Vite
